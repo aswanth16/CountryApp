@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+  }
+ 
+  .form{
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  margin: auto;
+    /* height: 600px; */
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+}
+
+  input[type=text],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #000;
+  }
+  .checkbox {
+   
+    text-align: left;
+  }
+  .checkbox1{
+    display: inline-block;
+    padding: 0rem 0rem;
+    vertical-align: middle;
+  }
+  .signinbutton {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .alternate-signin-container .or-separator::after, .alternate-signin-container .or-separator::before
+  {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: rgba(0,0,0,0.15);
+    font-family: "font-awesome";
+  }
+  @media only screen and (min-width: 768px)
+  {
+    .Fullsec
+    {
+         display: flex;
+    }
+    .rightimg
+    {
+        margin-top: 20%;
+    margin-left: 200px;
+    }
+  }
+#or-separator
+{
+  margin-top: 20px;
+}
+.socialicons
+{
+  font-size: 30px;
+}
+.socialicons .fa-brands
+{
+  padding: 40px;
+}
+.mapcountry article
+{
+
+  margin: 10px;
+  background-color: var(--article-color);
+    padding: 15px 15px;
+  border-radius: 3px;
+  box-shadow: 0 5px 20px hsla(200, 15%, 8%, 0.5);
+}
+
